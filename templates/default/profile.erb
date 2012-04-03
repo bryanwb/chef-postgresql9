@@ -1,0 +1,5 @@
+[ -f /etc/sysconfig/pgsql/postgresql ] && source /etc/sysconfig/pgsql/postgresql
+export PATH=$PATH:/usr/pgsql-9.0/bin/
+
+export PGDATA=<%= node[:postgresql][:dir] %>
+ 
