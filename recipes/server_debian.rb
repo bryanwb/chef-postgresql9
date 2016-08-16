@@ -19,7 +19,7 @@
 # limitations under the License.
 #
 
-include_recipe "postgresql::client"
+include_recipe "postgresql9::client"
 
 case node[:postgresql][:version]
 when "8.3"

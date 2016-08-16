@@ -36,6 +36,6 @@ case node.platform
 when "redhat", "centos", "fedora", "suse", "scientific", "amazon"
   include_recipe "postgresql9::server_redhat"
 when "debian", "ubuntu"
-  include_recipe "postgresql90::server_debian"
+  include_recipe "postgresql9::server_debian"
 end
 
